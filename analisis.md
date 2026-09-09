@@ -98,3 +98,10 @@ INICIO
         MOSTRAR "Promedio Temperatura:", promedio_temp
     FIN_SI
 FIN
+
+## 🔍 Notas de Investigación en Internet / Google
+
+Para lograr una simulación automática más avanzada sin alterar la lógica básica vista en clase, investigamos en la documentación de Google / Python lo siguiente:
+
+1. **Estructura de Datos Estandarizada (`datos_telemetria`):** Se buscó en internet cómo almacenar un grupo estandarizado de datos predefinidos usando una lista de tuplas, evitando tener que solicitar las lecturas a mano con `input()`.
+2. **Librería `time` y comando `time.sleep(1.5)`:** Se investigó en la web sobre la librería nativa `time` para pausar la ejecución por 1.5 segundos en cada iteración del bucle, simulando la recepción de telemetría en tiempo real.
